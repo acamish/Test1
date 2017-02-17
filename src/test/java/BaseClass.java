@@ -1,6 +1,7 @@
 package test.java;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -14,8 +15,8 @@ public class BaseClass {
 
     @BeforeClass
     public void setup(){
-        System.setProperty("webdriver.gecko.driver", "G:\\ICANN\\dev\\Test1\\src\\test\\resources\\drivers\\geckodriver.exe");
-        driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver", "G:\\ICANN\\dev\\Test1\\src\\test\\resources\\drivers\\chromedriver.exe");
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
 

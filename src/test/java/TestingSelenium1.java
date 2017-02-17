@@ -12,6 +12,7 @@ public class TestingSelenium1 extends BaseClass{
     public void test1()
     {
         driver.get("https://google.co.in");
+        System.out.println("google here");
 
     }
 
@@ -19,6 +20,7 @@ public class TestingSelenium1 extends BaseClass{
     public void test2()
     {
         driver.get("https://yahoo.com");
+        System.out.println("yahoo here");
 
     }
 
@@ -26,7 +28,7 @@ public class TestingSelenium1 extends BaseClass{
     public void test3()
     {
         driver.get("https://facebook.com");
-
+        System.out.println("fb here");
     }
 
     @Test
