@@ -35,6 +35,7 @@ public class TestingSelenium1 extends BaseClass{
     public void test4()
     {
         driver.get("https://instagram.com");
+        System.out.println("insta here");
 
     }
 

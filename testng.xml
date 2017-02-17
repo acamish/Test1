@@ -3,6 +3,10 @@
     <test name="Test1">
         <classes>
             <class name="test.java.TestingSelenium1" ></class>
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
             <class name="test.java.TestingSelenium2" ></class>
         </classes>
     </test>
