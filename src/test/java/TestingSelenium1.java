@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class TestingSelenium1 extends BaseClass{
 
 
-    @Test
+    @Test(priority = 1)
     public void test1()
     {
         driver.get("https://google.co.in");
