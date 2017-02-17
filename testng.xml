@@ -10,4 +10,10 @@
             <class name="test.java.TestingSelenium2" ></class>
         </classes>
     </test>
+    <test name="Test3">
+        <classes>
+            <class name="test.java.TestingSelenium3" ></class>
+        </classes>
+    </test>
+
 </suite>
