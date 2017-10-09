@@ -1,5 +1,6 @@
 package test.java;
 
+import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -18,7 +19,8 @@ public class BaseClass {
 
     @BeforeClass
     public void setup(){
-        System.setProperty("webdriver.chrome.driver", "G:\\ICANN\\dev\\Test1\\src\\test\\resources\\drivers\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "G:\\ICANN\\dev\\Test1\\src\\test\\resources\\drivers\\chromedriver.exe");
+        ChromeDriverManager.getInstance().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
